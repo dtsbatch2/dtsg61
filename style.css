@@ -44,18 +44,18 @@ a{
 .header_pas_turun{
 	background: linear-gradient(to right, rgba(103,58,183,1), rgba(156,39,176,1));
 	box-shadow: rgba(0,0,0,0.3) 0 10px 20px -10px;
-	animation-name: transparentHeader;
-	animation-duration: 1s;
+	/*animation-name: transparentHeader;
+	animation-duration: 1s;*/
 }
-@keyframes transparentHeader{
+/*@keyframes transparentHeader{
 	from{background: linear-gradient(to right, rgba(103,58,183,0), rgba(156,39,176,0));}
 	to{background: linear-gradient(to right, rgba(103,58,183,1), rgba(156,39,176,1));}
-}
+}*/
 .banner{
 	position: relative;
 	width: 100%;
 	height: auto;
-	background: white;
+	background: none;
 	overflow: hidden;
 }
 .banner .grafik{
@@ -93,6 +93,22 @@ a{
 	0%{top: 0;}
 	100%{top: 37vw;}
 }
+.banner .grafik2{
+	position: relative;
+	top: 10vw;
+	right: -43vw;
+	width: 80%;
+	height: 45vw;
+	background: linear-gradient(to left, #0ab7a7, #009688);
+	transform: skew(50deg, -20deg);
+	border-top-left-radius: 30%;
+	border-top-right-radius: 30%;
+	box-shadow: rgba(0,150,136,0.25) -1vw -1vw 0 0;
+}
+.Responsive-bro{
+	position: relative;
+	z-index: 200;
+}
 .banner .title_banner{
 	position: relative;
 	top: 20vw;
@@ -113,6 +129,7 @@ a{
 		0%{top: 0;}
 		100%{top: 50vw;}
 	}
+	.Responsive-bro{width: 50%;}
 }
 @media screen and (max-width: 480px){
 	.banner .grafik img{width: 48%;}
