@@ -70,6 +70,7 @@ a{
 	animation-name: borderGrafik;
 	animation-duration: 1s;
 }
+
 @keyframes borderGrafik{
 	from{
 		border-bottom-left-radius: 0%;
@@ -104,10 +105,15 @@ a{
 	border-top-left-radius: 30%;
 	border-top-right-radius: 30%;
 	box-shadow: rgba(0,150,136,0.25) -1vw -1vw 0 0;
+	animation-name: bermain_radius;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
 }
 .Responsive-bro{
 	position: relative;
 	z-index: 200;
+	left: 5vw;
+	top: 2vw;
 }
 .banner .title_banner{
 	position: relative;
@@ -120,6 +126,54 @@ a{
 	transform: skewY(20deg);
 }
 .banner .title_banner p{padding: 0;margin: 0;}
+.banner .grafik2 .title_banner_2{
+	transform: skew(-50deg, 20deg);
+	text-align: right;
+	position: relative;
+	top: 7vw;
+	right: 33vw;
+	font-weight: bolder;
+	font-size: 3.5em;
+	font-family: Roboto;
+	color: white;
+}
+.banner .grafik2 .title_banner_2 p{padding: 0;margin: 0;}
+
+/* Ini Untuk Artikel */
+article{
+	width: 100%;
+	height: auto;
+	padding: 2vw 0;
+	text-align: center;
+	font-family: Roboto;
+	color: rgb(75,75,75);
+}
+article h1{font-size: 2em;}
+article .post{
+	width: 45%;
+	height: auto;
+	border-radius: 7px;
+	box-shadow: rgba(0,0,0,0.3) 0 10px 20px -10px;
+	display: inline-block;
+	margin: 2%;
+	overflow: hidden;
+}
+article .post img{width: 100%;}
+article .post button{
+	border: none;
+	padding: 1.5vw;
+	border-radius: 7px;
+	background: #4caf50;
+	font-family: Roboto;
+	font-size: normal;
+	color: white;
+	margin-bottom: 2vw;
+	outline-width: 0;
+	cursor: pointer;
+	transition: opacity 0.3s;
+}
+article .post button:hover{opacity: 0.9}
+/* End of Article */
 
 @media screen and (max-width: 800px){
 	.banner .grafik img{width: 40%;top: 50vw;}
@@ -129,7 +183,10 @@ a{
 		0%{top: 0;}
 		100%{top: 50vw;}
 	}
-	.Responsive-bro{width: 50%;}
+	.Responsive-bro{width: 45%;top: 5vw;left: 2vw;}
+	.banner .grafik2{height: 50vw}
+	.banner .grafik2 .title_banner_2{font-size: 3em;right: 28vw;}
+	article .post{width: 100%;}
 }
 @media screen and (max-width: 480px){
 	.banner .grafik img{width: 48%;}
@@ -150,8 +207,22 @@ a{
 		top: 50vw;
 	}
 	.banner .title_banner{top: 53vw;left: 15vw;font-size: 4em;text-align: right;}
+	.banner .grafik2{float: right;width: 100%;right: -20vw;height: 60vw;}
+	.Responsive-bro{width: 90%;left: 4vw;}
+	.banner .grafik2 .title_banner_2{
+		font-size: 2.5em;
+		transform: skewX(-50deg);
+		top: 7vw;
+		right: 35vw;
+		text-shadow: rgba(0,0,0,0.6) -5px -1px 0;
+	}
+	article .post button{
+		padding: 3vw;
+		margin-bottom: 5vw;
+	}
 }
 @media screen and (max-width: 320px){
 	.banner .title_banner{top: 53vw;left: 10vw;font-size: 3.5em;}
 	.banner .grafik{height: 200vw;}
+	.banner .grafik2{float: right;width: 100%;right: -50vw;height: 100vw;}
 }
