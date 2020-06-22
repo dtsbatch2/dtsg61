@@ -175,6 +175,43 @@ article .post button{
 article .post button:hover{opacity: 0.9}
 /* End of Article */
 
+.jaminan{
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 2vw 0;
+	text-align: center;
+	background: white;
+	overflow: hidden;
+}
+.jaminan p{
+	font-family: Roboto;
+	font-size: 5em;
+	font-weight: bolder;
+	text-transform: capitalize;
+	background: linear-gradient(to right, #e91e63, #9c27b0);
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-ms-background-clip: text;
+	-ms-text-fill-color: transparent;
+	-o-background-clip: text;
+	-o-text-fill-color: transparent;
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+	margin-bottom: 2vw;
+}
+.jaminan text{
+	font-family: Roboto;
+	font-weight: lighter;
+	font-size: x-large;
+	color: rgb(65,65,65);
+	margin-bottom: 3vw;
+}
+.jaminan img{
+	width: 100%;
+}
 @media screen and (max-width: 800px){
 	.banner .grafik img{width: 40%;top: 50vw;}
 	.banner .grafik{height: 80vw;}
@@ -219,6 +256,19 @@ article .post button:hover{opacity: 0.9}
 	article .post button{
 		padding: 3vw;
 		margin-bottom: 5vw;
+	}
+	.jaminan p{
+		font-size: 3em;
+		margin-bottom: 5vw;
+	}
+	.jaminan text{
+		font-size: large;
+		display: block;
+	}
+	.jaminan img{
+		position: relative;
+		left: -95%;
+		width: 200%;
 	}
 }
 @media screen and (max-width: 320px){
