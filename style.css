@@ -278,6 +278,7 @@ article .partner button:hover{opacity: 0.9}
 	.banner .grafik2 .title_banner_2{font-size: 3em;right: 28vw;}
 	article .post{width: 100%;}
 	.footer {height: 140px;}
+	article .partner{width: 40%;}
 }
 @media screen and (max-width: 480px){
 	.banner .grafik img{width: 48%;}
