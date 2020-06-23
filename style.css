@@ -219,7 +219,7 @@ article .post button:hover{opacity: 0.9}
 .footer {
 	bottom:0;
 	width: 100%;
-	height: 180px;   /* tinggi dari footer */
+	height: 140px;   /* tinggi dari footer */
 	background: #326da8;
 	float: left;
 	text-align: center;
@@ -305,4 +305,5 @@ article .post button:hover{opacity: 0.9}
 	.banner .title_banner{top: 53vw;left: 10vw;font-size: 3.5em;}
 	.banner .grafik{height: 200vw;}
 	.banner .grafik2{float: right;width: 100%;right: -50vw;height: 100vw;}
+	.footer {height: 200vw;}
 }
