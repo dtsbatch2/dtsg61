@@ -241,26 +241,27 @@ article .partner button:hover{opacity: 0.9}
 /*footer*/
 
 .footer {
-	bottom:0;
-	width: 100%;
-	height: 140px;   /* tinggi dari footer */
-	background: #326da8;
 	float: left;
-	text-align: center;
+	width: 100%;
+	height: auto;
+	background: #326da8;
+	padding: 3vw 0;
 }
 
 .footer img {
-  width: 100px;
+	width: 100px;
 	margin-left: 5px;
 }
 
 .footer h1 {
-  font-size: 20;
+	font-size: x-small;
+	font-family: Roboto;
 }
 
 .footer p {
   color: white;
-  font-size: 12px;
+  font-size: x-small;
+  font-family: Roboto;
 }
 
 /*end footer*/
