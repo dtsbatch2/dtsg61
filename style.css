@@ -212,6 +212,35 @@ article .post button:hover{opacity: 0.9}
 .jaminan img{
 	width: 100%;
 }
+
+
+/*footer*/
+
+.footer {
+	bottom:0;
+	width: 100%;
+	height: 130px;   /* tinggi dari footer */
+	background: #326da8;
+	float: left;
+	text-align: center;
+}
+
+.footer img {
+  width: 100px;
+	margin-left: 5px;
+}
+
+.footer h1 {
+  font-size: 20;
+}
+
+.footer p {
+  color: white;
+  font-size: 12px;
+}
+
+/*end footer*/
+
 @media screen and (max-width: 800px){
 	.banner .grafik img{width: 40%;top: 50vw;}
 	.banner .grafik{height: 80vw;}
@@ -224,6 +253,7 @@ article .post button:hover{opacity: 0.9}
 	.banner .grafik2{height: 50vw}
 	.banner .grafik2 .title_banner_2{font-size: 3em;right: 28vw;}
 	article .post{width: 100%;}
+	.footer {height: 130px;}
 }
 @media screen and (max-width: 480px){
 	.banner .grafik img{width: 48%;}
@@ -271,36 +301,11 @@ article .post button:hover{opacity: 0.9}
 		width: 200%;
 	}
 }
-
-/*footer*/
-
-.footer {
-	bottom:0;
-	width: 100%;
-	height: 130px;   /* tinggi dari footer */
-	background: #326da8;
-	float: left;
-	text-align: center;
-}
-
-.footer img {
-  width: 100px;
-	margin-left: 5px;
-}
-
-.footer h1 {
-  font-size: 20;
-}
-
-.footer p {
-  color: white;
-  font-size: 12px;
-}
-
-/*end footer*/
+	.footer {height: 140px;}
 
 @media screen and (max-width: 320px){
 	.banner .title_banner{top: 53vw;left: 10vw;font-size: 3.5em;}
 	.banner .grafik{height: 200vw;}
 	.banner .grafik2{float: right;width: 100%;right: -50vw;height: 100vw;}
+	.footer {height: 200px;}
 }
