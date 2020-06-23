@@ -253,7 +253,6 @@ article .post button:hover{opacity: 0.9}
 	.banner .grafik2{height: 50vw}
 	.banner .grafik2 .title_banner_2{font-size: 3em;right: 28vw;}
 	article .post{width: 100%;}
-	.footer {height: 180vw;}
 }
 @media screen and (max-width: 480px){
 	.banner .grafik img{width: 48%;}
@@ -301,11 +300,9 @@ article .post button:hover{opacity: 0.9}
 		width: 200%;
 	}
 }
-	.footer {height: 250vw;}
 
 @media screen and (max-width: 320px){
 	.banner .title_banner{top: 53vw;left: 10vw;font-size: 3.5em;}
 	.banner .grafik{height: 200vw;}
 	.banner .grafik2{float: right;width: 100%;right: -50vw;height: 100vw;}
-	.footer {height: 400vw;}
 }
