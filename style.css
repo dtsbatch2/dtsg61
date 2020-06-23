@@ -173,6 +173,30 @@ article .post button{
 	transition: opacity 0.3s;
 }
 article .post button:hover{opacity: 0.9}
+article .partner{
+	width: 35%;
+	height: auto;
+	border-radius: 7px;
+	box-shadow: rgba(0,0,0,0.3) 0 10px 20px -10px;
+	display: inline-block;
+	margin: 2%;
+	overflow: hidden;
+}
+article .partner img{width: 100%;}
+article .partner button{
+	border: none;
+	padding: 1.5vw;
+	border-radius: 7px;
+	background: #4caf50;
+	font-family: Roboto;
+	font-size: normal;
+	color: white;
+	margin-bottom: 2vw;
+	outline-width: 0;
+	cursor: pointer;
+	transition: opacity 0.3s;
+}
+article .partner button:hover{opacity: 0.9}
 /* End of Article */
 
 .jaminan{
