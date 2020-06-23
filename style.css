@@ -174,12 +174,12 @@ article .post button{
 }
 article .post button:hover{opacity: 0.9}
 article .partner{
-	width: 30%;
+	width: 25%;
 	height: auto;
 	border-radius: 7px;
 	box-shadow: rgba(0,0,0,0.3) 0 10px 20px -10px;
 	display: inline-block;
-	margin: 2%;
+	margin: 1%;
 	overflow: hidden;
 }
 article .partner img{width: 100%;}
@@ -187,7 +187,7 @@ article .partner button{
 	border: none;
 	padding: 1.5vw;
 	border-radius: 7px;
-	background: #4caf50;
+	background: #2196f3;
 	font-family: Roboto;
 	font-size: normal;
 	color: white;
@@ -278,7 +278,7 @@ article .partner button:hover{opacity: 0.9}
 	.banner .grafik2 .title_banner_2{font-size: 3em;right: 28vw;}
 	article .post{width: 100%;}
 	.footer {height: 140px;}
-	article .partner{width: 40%;}
+	article .partner{width: 60%;}
 }
 @media screen and (max-width: 480px){
 	.banner .grafik img{width: 48%;}
@@ -309,6 +309,11 @@ article .partner button:hover{opacity: 0.9}
 		text-shadow: rgba(0,0,0,0.6) -5px -1px 0;
 	}
 	article .post button{
+		padding: 3vw;
+		margin-bottom: 5vw;
+	}
+	article .partner{width: 100%;}
+	article .partner button{
 		padding: 3vw;
 		margin-bottom: 5vw;
 	}
