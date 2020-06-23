@@ -219,7 +219,7 @@ article .post button:hover{opacity: 0.9}
 .footer {
 	bottom:0;
 	width: 100%;
-	height: auto;   /* tinggi dari footer */
+	height: 180px;   /* tinggi dari footer */
 	background: #326da8;
 	float: left;
 	text-align: center;
